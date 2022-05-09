@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html>
+<head> 
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+* {
+  box-sizing: border-box;
+}
+body {d
+  font-family: Arial;
+  padding: 10px;
+  background: MediumTurquoise;
+}
+.menu {
+  float:left;
+  width:20%;
+  text-align:center;
+  
+}
+
+
+.ball{
+	width: 50px;
+	height: 50px;
+	margin: auto;
+	background-color: red;
+	border-radius: 50%;
+	position: absolute;
+	top: 10px; 
+	left: 0;
+	right: 0;
+	animation: bounce 1s infinite; 
+}
+
+
+{
+background-color:#e5e5e5;
+  padding:12px;
+  margin-top:12px;
+  display:block;
+  width:100%;
+  color:Cornsilk;
+  background: LightSalmon;
+}
+.menu a {
+  background-color:#e5e5e5;
+  padding:8px;
+  margin-top:7px;
+  display:block;
+  width:100%;
+font-size:15px;
+  color:Cornsilk;
+  background: Crimson;
+}
+.main {
+padding: 30px;
+  text-align: center;
+  background: gold;
+  float:left;
+  width:60%;
+font-size:20px;
+  color:DeepPink;
+  padding:0 20px;
+}
+.right {
+  background-color:coral;
+  float:left;
+  color:DarkRed;
+  width:20%;
+  padding:15px;
+  margin-top:7px;
+  text-align:center;
+}
+
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+@media only screen and (max-width:800px) {
+  .main {
+    width: 80%;
+    padding: 0;
+  }
+  .right {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width:620px) {
+  .menu, .main, .right {
+    width:100%;
+  }
+}
+h2 {color:MediumBlue;
+font-size:30px}
+</style>
+</head>
+
+
+<script>
+
+
+function alt() {
+  alert("Thank You for Choosing Anushka's Blog");
+}
+</script>
+
+
+
+
+
+
+<body style="font-family:Verdana;color:#aaaaaa;">
+
+<h1 style="color:red;"><p id="demo"></p></h1>
+<script>
+
+function mouseOver() {
+  document.getElementById("demo1").style.color = "Chartreuse";
+}
+
+function mouseOut() {
+  document.getElementById("demo1").style.color = "DarkRed";
+}
+
+</script>
+
+<div style="background-color:LightGreen;padding:15px;text-align:center;">
+
+ <article>
+<div class="header">
+ <h1 style="font-size:50px;color:SlateBlue;font-family:verdana;text-align:center;" id="demo1"><br><br><br><br>Anushka's Blog</h1>
+ <marquee><h2><font color="red"> <p id="demo">Anushka is a good girl :)</p></h2></font></marquee>
+  </article>
+</div>
+</div>
+
+<div style="overflow:auto">
+  <div class="menu">
+    <a href="https://timesofindia.indiatimes.com/life-style/events/happy-independence-day-2020-wishes-messages-quotes-images-facebook-whatsapp-status/articleshow/77542831.cms">Happy Indipendence day</a>
+  <a href="https://srcw.ac.in/">My College Site</a>
+  <a href="https://www.youtube.com/channel/UCKioAGTYw_EKmjRxC5Ss2og">Youtube Site</a>
+  <a href="https://Abisekh1.blogspot.com/" >Abi Blogspot</a>
+  </div>
+
+  <div class="main">
+  <div class="card">
+      <h2><br><br>ABOUT Anushka:</h2>
+<div>
+<script type = "text/javascript">
+        
+<!--
+var dir='right';
+
+function reset1(){
+clearTimeout(my_time);
+document.getElementById('i1').style.left= "1000px";
+document.getElementById('i1').style.top= "500px";
+document.getElementById("msg").innerHTML="";
+}
+
+function disp(){
+var step=5; // Change this step value
+//alert(dir);
+
+var y=document.getElementById('i1').offsetTop;
+var x=document.getElementById('i1').offsetLeft;
+if(x >= 1500 ){
+dir = 'left';
+}
+if(x <= 500 ){
+dir = 'right';
+}
+
+if(dir=='right'){x= x +step;}
+else{x=x - step;}
+document.getElementById('i1').style.left= x + "px"; // horizontal  movment
+//////////////////////
+}
+function timer(){
+disp();
+var y=document.getElementById('i1').offsetTop;
+var x=document.getElementById('i1').offsetLeft;
+document.getElementById("msg").innerHTML="X: " + x  + " Y : " + y
+my_time=setTimeout('timer()',10);
+}
+//-->
+
+      </script>
+
+
+</div>
+ 
+
+        <br><br> <p>I AM Anushka AND I COMPLETED MY  SCHOOLINGS FROM KENDRIYA VIDYALAYA(UTTAR PRADESH , JAMMU& KASHMIR, WEST BENGAL, ANDRA PRADESH AND RAJASTHAN). NOW I AM PERSUING MY DEGREE FROM SRI RAMAKRISHNA COLLEGE OF ARTS AND SCIENCE FOR WOMENS (BCA).</p>
+    </div>
+    <h2>ABOUT MY COLLEGE:</h2>
+    <div class="fakeimg" style="height:200px;"><img src="https://srcw.ac.in/wp-content/uploads/2020/08/srcw-logo.png" height="170" width="1495" style="width:100%;"></div>
+<img id="image"  width="160" height="120">
+<script>
+document.getElementById("image").src ="https://srcw.ac.in/wp-content/uploads/2021/03/1-2048x1365.jpg";
+</script>
+
+    <p>Sri Ramakrishna College of Arts and Science for Women enjoys the reputation of being a most preferred women’s institution for higher learning in the city. The college is affiliated to Bharathiar University and is accredited by NAAC New Delhi. With an academic heritage of over 30 years, the college continues to fulfill the holistic educational needs required for the empowerment of women. 
+
+        The College offers 11 Under-Graduate Programmes viz. B.Com., B.Com (CA)., B.Com (PA), BBA(CA), B.Sc. (Computer Science), B.C.A., B.Sc.(Information Technology), B.Sc. (Microbiology), B.Sc. (Bio- Chemistry),B.Sc Mathematics ,BA(English Literature) and 4 Post-graduate Programmes namely M.Com (CA), M.Sc. (Computer Science), M.Sc. (Microbiology), M.Sc. (Bio-Chemistry) . Indulging to the thirst for research, the College also offers M.Phil. and Ph.D. programmes in Commerce, Computer Science,Bio-Chemistry and Microbiology.
+        
+        Situated at a vantage location in the city of Coimbatore, the college has a strength of 2000 students, ably mentored by a dedicated team of more than 100 faculty members and supporting staff. The untiring efforts of faculty and students have resulted in an excellent academic record of 354 University ranks including 47 gold med
+
+
+  </div>
+
+  <div class="right">
+  <div>
+  <r>
+  <h2>MY COURSES:</h2>
+      <div class="fakeimg" style="height:100px;"><img src="https://1.bp.blogspot.com/-ClK1nz2Rxw8/XU5M1nI-C1I/AAAAAAAAABg/OnukDIt7N085jgH5QIqT9B0FA5ODJO-OwCLcBGAs/s640/5.png" height="75" width="435" style="width:100%;"> </div>
+      <p>I HAVE DONE MANY COURSES AS I HAVE COMPLETED: <br>sSTEO COURSES ,<br> ICT LEARNATHON ,<br> CISCO ,<br> AUTODESK.</p>
+ </r> </div>
+   <r> <h2>Contact Me:</h2>
+    <div class="fakeimg"><p><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Facebook_logo_36x36.svg/125px-Facebook_logo_36x36.svg.png" height="75" width="135" ><br>Facebook<br>ID: Anushka</p></div>
+      <div class="fakeimg"><p><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Instagram_logo_2016.svg/266px-Instagram_logo_2016.svg.png" height="75" width="135" ><br>Instagram<br>ID: Anushka</p></div>
+      <div class="fakeimg"><p><img src="https://i1.wp.com/www.eenmanierom.nl/wp-content/uploads/2009/02/Twitter-logo.png?zoom=2&resize=500%2C312&ssl=1" height="75" width="135" ><br>Twitter<br>ID: @Anushkav</p></r></div>
+      <center>
+
+</div>
+
+<div style="background-color:DeepSkyBlue;text-align:center;padding:10px;margin-top:7px;color:MistyRose;">Thank you for visiting my Website :)<br>Copyright Anushka1.blogspot.com</div>
+
+</body>
+
+
+</body>
+</html>
